@@ -1,0 +1,1169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8f9f8728-21ec-467d-b466-2b3103bdb16a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Kotlin/src/cn/jacken/KotlinDemo/HelloWorldKotlin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin/src/cn/jacken/KotlinDemo/Test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-jta-atomikos/src/main/java/com/jacken/springbootjtaatomikos/config/Test2MyBatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-jta-atomikos/src/main/java/com/jacken/springbootjtaatomikos/config/TestMyBatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-jta-atomikos/src/main/java/com/jacken/springbootjtaatomikos/config/TransactionManagerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-jta-atomikos/src/main/java/com/jacken/springbootjtaatomikos/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-jta-atomikos/src/main/java/com/jacken/springbootjtaatomikos/dao/test1/TestDBDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-jta-atomikos/src/main/java/com/jacken/springbootjtaatomikos/dao/test2/TestDB2Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-jta-atomikos/src/main/java/com/jacken/springbootjtaatomikos/datasource/Test2DBConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-jta-atomikos/src/main/java/com/jacken/springbootjtaatomikos/datasource/TestDBConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-jta-atomikos/src/main/java/com/jacken/springbootjtaatomikos/service/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-jta-atomikos/src/main/java/com/jacken/springbootjtaatomikos/service/impl/TestServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-jta-atomikos/src/main/resources/mybatis/test1/test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-jta-atomikos/src/main/resources/mybatis/test2/test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-jta-atomikos/src/main/resources/sql/test.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-es-zipkin/springcloud-consumer/src/main/java/springcloud/Controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-es-zipkin/springcloud-consumer/src/main/java/springcloud/UserConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-es-zipkin/springcloud-consumer/src/main/java/springcloud/config/CfgBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-es-zipkin/springcloud-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-es-zipkin/springcloud-interface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-es-zipkin/springcloud-interface/springcloud-interface.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-es-zipkin/springcloud-interface/src/main/java/cn/jacken/springcloud/Client/UserClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-es-zipkin/springcloud-interface/src/main/java/cn/jacken/springcloud/Client/UserClientHystrixFallbackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-es-zipkin/springcloud-provider/src/main/java/cn/jacken/springcloud/Controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-es-zipkin/springcloud-provider/src/main/java/cn/jacken/springcloud/ProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-es-zipkin/springcloud-provider/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-es-zipkin/springcloud-provider001/src/main/java/springcloud/Controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-es-zipkin/springcloud-provider001/src/main/java/springcloud/ProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-es-zipkin/springcloud-provider001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-es-zipkin/springcloud-zipkin-server/src/main/java/server/ZipkinServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-es-zipkin/springcloud-zipkin-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_generator_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_andrewoma_dexx_dexx_collections_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_vlsi_compactmap_compactmap_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_9_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_9_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_10_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_10_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_47.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_56.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_56.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_16_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/activations/apm-toolkit-log4j-1.x-activation-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/activations/apm-toolkit-log4j-2.x-activation-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/activations/apm-toolkit-logback-1.x-activation-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/activations/apm-toolkit-opentracing-activation-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/activations/apm-toolkit-trace-activation-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/config/agent.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/logs/skywalking-api.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/optional-plugins/apm-gson-2.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/optional-plugins/apm-spring-annotation-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/optional-plugins/apm-trace-ignore-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-activemq-5.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-canal-1.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-dubbo-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-elastic-job-2.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-elasticsearch-5.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-feign-default-http-9.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-grpc-1.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-h2-1.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-httpClient-4.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-httpasyncclient-4.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-hystrix-1.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-jdbc-commons-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-jedis-2.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-jetty-client-9.0-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-jetty-client-9.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-jetty-server-9.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-kafka-v1-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-mongodb-2.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-mongodb-3.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-mysql-5.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-nutz-http-1.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-nutz-mvc-annotation-1.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-okhttp-3.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-postgresql-8.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-rabbitmq-5.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-redisson-3.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-resttemplate-4.3.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-rocketmq-3.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-rocketmq-4.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-servicecomb-java-chassis-0.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-servicecomb-java-chassis-1.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-sharding-jdbc-1.5.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-spring-cloud-feign-1.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-spring-concurrent-util-4.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-spring-core-patch-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-springmvc-annotation-3.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-springmvc-annotation-4.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-springmvc-annotation-5.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-springmvc-annotation-commons-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-spymemcached-2.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-struts2-2.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-undertow-2.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-webflux-5.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/apm-xmemcached-2.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/dubbo-conflict-patch-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/motan-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/sofa-rpc-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/spring-commons-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/plugins/tomcat-7.x-8.x-plugin-6.0.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-agent/agent/skywalking-agent.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-skywalking-consumer/src/main/java/com/jacken/springcloudskywalkingconsumer/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-skywalking-consumer/src/main/java/com/jacken/springcloudskywalkingconsumer/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-skywalking-consumer/src/main/java/com/jacken/springcloudskywalkingconsumer/feign/UserFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-skywalking-consumer/src/main/java/com/jacken/springcloudskywalkingconsumer/request/UserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-skywalking-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-skywalking-eureka/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-skywalking-producer/src/main/java/com/jacken/springcloudskywalkingproducer/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-skywalking-producer/src/main/java/com/jacken/springcloudskywalkingproducer/domain/LoanProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-skywalking-producer/src/main/java/com/jacken/springcloudskywalkingproducer/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-skywalking-producer/src/main/java/com/jacken/springcloudskywalkingproducer/mapper/LoanProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-skywalking-producer/src/main/java/com/jacken/springcloudskywalkingproducer/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-skywalking-producer/src/main/java/com/jacken/springcloudskywalkingproducer/request/UserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-skywalking-producer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zookeeper-lock/src/main/java/com/jacken/zookeeperlock/zookeeper/TestThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zookeeper-lock/src/main/java/com/jacken/zookeeperlock/zookeeper/ZKDistributeLockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zookeeper-lock/src/main/java/com/jacken/zookeeperlock/zookeeper/zkoperaterTest.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-skywalking-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-skywalking-producer/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-skywalking-consumer/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-skywalking-consumer/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1043">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-skywalking-consumer/src/main/java/com/jacken/springcloudskywalkingconsumer/feign/UserFeign.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-skywalking-consumer/src/main/java/com/jacken/springcloudskywalkingconsumer/SpringcloudSkywalkingConsumerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springcloud-skywalking-producer/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="545">
+              <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-skywalking-consumer/src/main/java/com/jacken/springcloudskywalkingconsumer/request/UserRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-skywalking-consumer/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-skywalking-consumer/src/main/java/com/jacken/springcloudskywalkingconsumer/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
+                <element signature="e#671#672#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-skywalking-consumer/src/main/java/com/jacken/springcloudskywalkingconsumer/domain/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-skywalking-producer/src/main/java/com/jacken/springcloudskywalkingproducer/domain/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/type/Alias.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/springcloud-skywalking-eureka/src/test/java/com/jacken/springcloudskywalkingeureka/SpringcloudSkywalkingEurekaApplicationTests.java" />
+        <option value="$PROJECT_DIR$/springcloud-skywalking-eureka/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-skywalking-eureka/src/main/java/com/jacken/springcloudskywalkingeureka/SpringcloudSkywalkingEurekaApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-skywalking-producer/src/main/java/com/jacken/springcloudskywalkingproducer/domain/LoanProduct.java" />
+        <option value="$PROJECT_DIR$/springcloud-skywalking-producer/src/main/java/com/jacken/springcloudskywalkingproducer/mapper/LoanProductMapper.java" />
+        <option value="$PROJECT_DIR$/springcloud-skywalking-producer/src/main/java/com/jacken/springcloudskywalkingproducer/domain/User.java" />
+        <option value="$PROJECT_DIR$/springcloud-skywalking-producer/src/main/java/com/jacken/springcloudskywalkingproducer/request/UserRequest.java" />
+        <option value="$PROJECT_DIR$/springcloud-skywalking-producer/src/test/java/com/jacken/springcloudskywalkingproducer/SpringcloudSkywalkingProducerApplicationTests.java" />
+        <option value="$PROJECT_DIR$/springcloud-skywalking-producer/src/main/java/com/jacken/springcloudskywalkingproducer/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/springcloud-skywalking-producer/src/main/java/com/jacken/springcloudskywalkingproducer/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/springcloud-skywalking-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-skywalking-producer/src/main/java/com/jacken/springcloudskywalkingproducer/SpringcloudSkywalkingProducerApplication.java" />
+        <option value="$PROJECT_DIR$/springcloud-skywalking-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-skywalking-consumer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-skywalking-producer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-skywalking-consumer/src/main/java/com/jacken/springcloudskywalkingconsumer/request/UserRequest.java" />
+        <option value="$PROJECT_DIR$/springcloud-skywalking-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-skywalking-consumer/src/main/java/com/jacken/springcloudskywalkingconsumer/domain/User.java" />
+        <option value="$PROJECT_DIR$/springcloud-skywalking-consumer/src/main/java/com/jacken/springcloudskywalkingconsumer/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/springcloud-skywalking-consumer/src/main/java/com/jacken/springcloudskywalkingconsumer/SpringcloudSkywalkingConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/springcloud-skywalking-consumer/src/main/java/com/jacken/springcloudskywalkingconsumer/feign/UserFeign.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springcloud-skywalking-consumer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springcloud-skywalking-consumer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springcloud-skywalking-producer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springcloud-skywalking-producer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="width" value="1824" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springlcoud-skywalking-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springlcoud-skywalking-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springlcoud-skywalking-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springlcoud-skywalking-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-agent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springlcoud-skywalking-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springlcoud-skywalking-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-agent" type="462c0819:PsiDirectoryNode" />
+              <item name="agent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springlcoud-skywalking-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springlcoud-skywalking-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-skywalking-consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springlcoud-skywalking-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springlcoud-skywalking-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-skywalking-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springlcoud-skywalking-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springlcoud-skywalking-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-skywalking-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springlcoud-skywalking-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springlcoud-skywalking-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-skywalking-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springlcoud-skywalking-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springlcoud-skywalking-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-skywalking-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloudskywalkingconsumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springlcoud-skywalking-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springlcoud-skywalking-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-skywalking-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloudskywalkingconsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springlcoud-skywalking-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springlcoud-skywalking-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-skywalking-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloudskywalkingconsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="feign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springlcoud-skywalking-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springlcoud-skywalking-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-skywalking-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloudskywalkingconsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="request" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springlcoud-skywalking-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springlcoud-skywalking-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-skywalking-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springlcoud-skywalking-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springlcoud-skywalking-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-skywalking-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springlcoud-skywalking-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springlcoud-skywalking-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-skywalking-eureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springlcoud-skywalking-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springlcoud-skywalking-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-skywalking-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springlcoud-skywalking-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springlcoud-skywalking-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-skywalking-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springlcoud-skywalking-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springlcoud-skywalking-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-skywalking-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springlcoud-skywalking-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springlcoud-skywalking-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-skywalking-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloudskywalkingeureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springlcoud-skywalking-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springlcoud-skywalking-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-skywalking-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springlcoud-skywalking-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springlcoud-skywalking-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-skywalking-producer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springlcoud-skywalking-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springlcoud-skywalking-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-skywalking-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springlcoud-skywalking-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springlcoud-skywalking-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-skywalking-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springlcoud-skywalking-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springlcoud-skywalking-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-skywalking-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springlcoud-skywalking-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springlcoud-skywalking-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-skywalking-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloudskywalkingproducer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springlcoud-skywalking-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springlcoud-skywalking-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-skywalking-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloudskywalkingproducer" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springlcoud-skywalking-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springlcoud-skywalking-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-skywalking-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloudskywalkingproducer" type="462c0819:PsiDirectoryNode" />
+              <item name="request" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springlcoud-skywalking-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springlcoud-skywalking-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-skywalking-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springlcoud-skywalking-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springlcoud-skywalking-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-skywalking-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jacken.springcloudskywalkingconsumer.domain" />
+      <recent name="com.jacken.springcloudskywalkingconsumer.request" />
+      <recent name="com.jacken.springcloudskywalkingproducer.request" />
+      <recent name="com.jacken.springcloudskywalkingproducer.domain" />
+      <recent name="com.jacken.springcloudskywalkingproducer.mapper" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\code\springlcoud-skywalking-demo\springcloud-skywalking-consumer\src\main\resources" />
+      <recent name="C:\Users\Administrator\Desktop\code\springlcoud-skywalking-demo\springcloud-skywalking-producer\src\main\resources" />
+      <recent name="C:\Users\Administrator\Desktop\code\springlcoud-skywalking-demo" />
+      <recent name="C:\Users\Administrator\Desktop\code\springlcoud-skywalking-demo\springcloud-skywalking-eureka\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringcloudSkywalkingConsumerApplication">
+    <configuration name="SpringcloudSkywalkingProducerApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springcloud-skywalking-producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jacken.springcloudskywalkingproducer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jacken.springcloudskywalkingproducer" />
+      <option name="MAIN_CLASS_NAME" value="com.jacken.springcloudskywalkingproducer.SpringcloudSkywalkingProducerApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringcloudSkywalkingConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-skywalking-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jacken.springcloudskywalkingconsumer.SpringcloudSkywalkingConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringcloudSkywalkingEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-skywalking-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jacken.springcloudskywalkingeureka.SpringcloudSkywalkingEurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringcloudSkywalkingProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-skywalking-producer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jacken.springcloudskywalkingproducer.SpringcloudSkywalkingProducerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringlcoudSkywalkingDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springlcoud-skywalking-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jacken.springlcoudskywalkingdemo.SpringlcoudSkywalkingDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="lua.app" factoryName="Lua Application">
+      <option name="program" value="lua.exe" />
+      <option name="file" value="" />
+      <option name="workingDir" value="$PROJECT_DIR$/src/main/java" />
+      <option name="debuggerType" value="1" />
+      <option name="params" value="" />
+      <option name="charset" value="UTF-8" />
+      <option name="showConsole" value="true" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SpringcloudSkywalkingProducerApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f9f8728-21ec-467d-b466-2b3103bdb16a" name="Default Changelist" comment="" />
+      <created>1570855164863</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570855164863</updated>
+      <workItem from="1570855167627" duration="2489000" />
+      <workItem from="1570859572015" duration="641000" />
+      <workItem from="1570860288797" duration="4417000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SpringcloudSkywalkingProducerApplicationTests_contextLoads - 2019.10.12 at 14h 08m 08s.xml">
+      <configuration name="SpringcloudSkywalkingProducerApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringcloudSkywalkingProducerApplicationTests_contextLoads - 2019.10.12 at 14h 12m 49s.xml">
+      <configuration name="SpringcloudSkywalkingProducerApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringcloudSkywalkingProducerApplicationTests_contextLoads - 2019.10.12 at 14h 15m 28s.xml">
+      <configuration name="SpringcloudSkywalkingProducerApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7547000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20682302" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22451194" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.22234273" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="LuaCheck" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.20575693" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mvnw.cmd" />
+    <entry file="file://$PROJECT_DIR$/mvnw" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.9.RELEASE/spring-boot-2.1.9.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="67" column="67" selection-start-line="67" selection-start-column="67" selection-end-line="67" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-skywalking-eureka/src/test/java/com/jacken/springcloudskywalkingeureka/SpringcloudSkywalkingEurekaApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-agent/agent/logs/skywalking-api.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-skywalking-eureka/src/main/java/com/jacken/springcloudskywalkingeureka/SpringcloudSkywalkingEurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-dependencies/Finchley.RELEASE/spring-cloud-dependencies-Finchley.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-skywalking-producer/src/main/java/com/jacken/springcloudskywalkingproducer/mapper/LoanProductMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-skywalking-producer/src/main/java/com/jacken/springcloudskywalkingproducer/domain/LoanProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="57" column="41" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-skywalking-producer/src/main/java/com/jacken/springcloudskywalkingproducer/request/UserRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-skywalking-producer/src/main/java/com/jacken/springcloudskywalkingproducer/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-skywalking-producer/src/test/java/com/jacken/springcloudskywalkingproducer/SpringcloudSkywalkingProducerApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-skywalking-producer/src/main/java/com/jacken/springcloudskywalkingproducer/SpringcloudSkywalkingProducerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-skywalking-producer/src/main/java/com/jacken/springcloudskywalkingproducer/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-skywalking-eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-skywalking-eureka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-skywalking-consumer/mvnw">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-skywalking-producer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="48" column="3" selection-start-line="48" selection-start-column="3" selection-end-line="52" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-skywalking-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1043">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/type/Alias.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-skywalking-producer/src/main/java/com/jacken/springcloudskywalkingproducer/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-skywalking-consumer/src/main/java/com/jacken/springcloudskywalkingconsumer/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-skywalking-consumer/src/main/java/com/jacken/springcloudskywalkingconsumer/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-skywalking-consumer/src/main/java/com/jacken/springcloudskywalkingconsumer/SpringcloudSkywalkingConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-skywalking-consumer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-skywalking-consumer/src/main/java/com/jacken/springcloudskywalkingconsumer/request/UserRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-skywalking-consumer/src/main/java/com/jacken/springcloudskywalkingconsumer/feign/UserFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-skywalking-producer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

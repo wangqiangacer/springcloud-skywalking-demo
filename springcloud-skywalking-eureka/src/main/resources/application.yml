@@ -1,0 +1,11 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: springcloud-skywalking-eureka
+eureka:
+  instance:
+    hostname: 127.0.0.1
+  client:
+    register-with-eureka: false
+    fetch-registry: false

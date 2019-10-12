@@ -1,0 +1,31 @@
+
+# DataSource Config
+spring:
+
+  application:
+    name: springcloud-skywalking-producer
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/test?useSSL=false&useUnicode=true&characterEncoding=utf8&tinyInt1isBit=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+mybatis-plus:
+  typeAliasesPackage: com.jacken.springcloudskywalkingproducer.mapper
+
+#  打印sql执行语句
+logging:
+  level:
+    com:
+      baomidou:
+        mybatisplus:
+          samples:
+            quickstart:
+              mapper : debug
+server:
+  port: 9001
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka/

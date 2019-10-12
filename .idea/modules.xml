@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springcloud-skywalking-consumer/springcloud-skywalking-consumer.iml" filepath="$PROJECT_DIR$/springcloud-skywalking-consumer/springcloud-skywalking-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-skywalking-eureka/springcloud-skywalking-eureka.iml" filepath="$PROJECT_DIR$/springcloud-skywalking-eureka/springcloud-skywalking-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-skywalking-producer/springcloud-skywalking-producer.iml" filepath="$PROJECT_DIR$/springcloud-skywalking-producer/springcloud-skywalking-producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springlcoud-skywalking-demo.iml" filepath="$PROJECT_DIR$/springlcoud-skywalking-demo.iml" />
+    </modules>
+  </component>
+</project>
